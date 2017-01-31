@@ -25,4 +25,5 @@ npm-debug.log
 /log
 /yarn-error.log
 
-src/main.scss
+css/main.css
+css/admin-theme.css
