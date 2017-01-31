@@ -1,0 +1,6 @@
+{
+    "name": "undefinedio/admin-theme",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "description": "Undefined Admin Theme"
+}
