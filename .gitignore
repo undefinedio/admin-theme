@@ -1,0 +1,28 @@
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+npm-debug.log
+
+# Vagrant
+.vagrant
+
+# Custom
+.idea/*
+.DS_Store
+
+/log
+/yarn-error.log
+
+src/main.scss

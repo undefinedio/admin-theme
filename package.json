@@ -1,0 +1,15 @@
+{
+    "name": "UndefinedAdminTheme",
+    "description": "An undefined admin theme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.com:undefinedio/stash.git"
+    },
+    "author": "Undefined",
+    "devDependencies": {
+        "gulp": "^3.9.1"
+    }
+}
