@@ -1,6 +1,6 @@
 {
     "name": "UndefinedAdminTheme",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "description": "An undefined admin theme",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
