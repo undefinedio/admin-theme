@@ -1,0 +1,22 @@
+/* *********************** */
+/* Under Editor */
+/* *********************** */
+#normal-sortables .postbox {
+    background: #eeecec;
+    border: 0 none;
+    border-radius: 2px;
+    padding: 5px 20px 10px 20px;
+}
+
+#normal-sortables h2,
+#normal-sortables h3 {
+    padding: 8px 0;
+}
+
+#normal-sortables .postbox .inside, .stuffbox .inside {
+    padding: 0 0 12px 0;
+}
+
+#normal-sortables .postbox .handlediv {
+    width: 10px;
+}

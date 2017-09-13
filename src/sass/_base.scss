@@ -1,0 +1,39 @@
+@mixin clear {
+    *zoom: 1;
+
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+#adminmenu a.undefined-logo {
+    display: block;
+    background: url('../images/logo-undefined.svg') no-repeat center center;
+    background-size: 140px 40px;
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    cursor: default;
+}
+
+.folded {
+    .undefined-logo {
+        display: none !important;
+    }
+}
+
+#adminmenu a.undefined-logo div.wp-menu-name {
+    display: none;
+}
+
+html.wp-toolbar {
+    background: #fff;
+    background: none;
+    padding-top: 0;
+}
