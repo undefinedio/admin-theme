@@ -1,20 +1,21 @@
 {
-  "name": "UndefinedAdminTheme",
-  "description": "An undefined admin theme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.com:undefinedio/stash.git"
-  },
-  "author": "Undefined",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.4.0",
-    "gulp-watch": "^4.3.11"
-  }
+    "name": "UndefinedAdminTheme",
+    "version": "1.1.8",
+    "description": "An undefined admin theme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@gitlab.com:undefinedio/stash.git"
+    },
+    "author": "Undefined",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-cssmin": "^0.1.7",
+        "gulp-sass": "^3.1.0",
+        "gulp-sourcemaps": "^2.4.0",
+        "gulp-watch": "^4.3.11"
+    }
 }

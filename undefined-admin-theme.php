@@ -5,7 +5,7 @@ Plugin Name: Undefined Admin Theme
 Plugin URI: http://weareundefined.be
 Description: A clean, simplified WordPress Admin theme
 Author: Ryan Sommers & Undefined
-Version: 1.1.7
+Version: 1.1.8
 Author URI: http://weareundefined.be
 */
 
