@@ -1,0 +1,91 @@
+/* *********************** */
+/* Main Wraps */
+/* *********************** */
+#wpwrap {
+    background: #fff;
+    background: none;
+}
+
+.branch-4-6 #wpwrap,
+.branch-4-8 #wpwrap,
+.branch-4-7 #wpwrap {
+    background: #fff;
+}
+
+#wpcontent {
+    margin-left: 200px;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 782px) {
+    #wpcontent,
+    .auto-fold #wpcontent {
+        padding-left: 20px;
+    }
+}
+
+// Some Jetpack specific fixes
+.jetpack-pagestyles #wpcontent {
+    margin-left: 200px;
+}
+
+.jetpack-pagestyles .modal {
+    margin-left: 200px;
+    top: 81px;
+}
+
+#wpbody {
+    padding-top: 61px;
+
+    .folded & {
+        padding-top: 36px;
+    }
+
+    @media screen and (max-width: 960px) {
+        padding-top: 36px;
+    }
+    @media screen and (max-width: 782px) {
+        padding-top: 46px;
+
+        .wp-responsive-open & {
+            right: -210px;
+        }
+    }
+}
+
+.wrap {
+    margin: 40px 60px 0 0;
+}
+
+@media screen and (max-width: 782px) {
+    .wrap {
+        margin: 20px 20px 0 0;
+    }
+}
+
+.edit-tags-php .wrap {
+    @include clear;
+    margin: 40px 0 0 0;
+}
+
+.post-php .wrap,
+.post-new-php .wrap,
+.comment-php .wrap {
+    margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+    .post-php .wrap,
+    .post-new-php .wrap,
+    .comment-php .wrap {
+        margin: 0 60px 0 0;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .post-php .wrap,
+    .post-new-php .wrap,
+    .comment-php .wrap {
+        margin: 0 20px 0 0;
+    }
+}
