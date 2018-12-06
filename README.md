@@ -1,3 +1,3 @@
 # Undefined Wordpress Admin theme
 
-<img src="https://cdn.rawgit.com/undefinedio/admin-theme/master/images/example.png" width="100%">
+<img src="https://cdn.jsdelivr.net/gh/undefinedio/admin-theme/images/example.png" width="100%">
